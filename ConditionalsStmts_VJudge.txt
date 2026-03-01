@@ -86,6 +86,30 @@ public class Main {
     }
 }
 ---------------------------------------------------------------------------------------
+Z)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);       
+        int N = sc.nextInt();       
+        int sum = N * (N + 1) * (2 * N + 1) / 6;       
+        System.out.println(sum);       
+        sc.close();
+    }
+}
+-------------------------------------------------------------------------------------------
+Y)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();   
+        int sum = N * (N + 1) / 2;    
+        System.out.println(sum);    
+        sc.close();
+    }
+}
+----------------------------------------------------------------------------------------
 AL)
 import java.util.Scanner;
 public class Main {
@@ -122,4 +146,5 @@ public class Main {
         }
     }
 }
+
 -------------------------------------------------------------------------------------
